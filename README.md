@@ -1,3 +1,3 @@
-# Some miscelanious scripts for automated data analysis (lab rotation)
+# Some miscellaneous scripts for automated data analysis (lab rotation)
 
 test&test
