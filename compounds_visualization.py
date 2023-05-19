@@ -19,6 +19,7 @@ screening_comps = pd.read_csv('/filename', sep=';')
 screening_comps = screening_comps.drop(index=(83))
 
 def search_and_analysis_comp(dataframe):
+    
     '''
     code for automated calculation on the compound and its visualization
     '''
@@ -52,8 +53,11 @@ def search_and_analysis_comp(dataframe):
         smiles_comp_corr = smiles_comp[5:]
         smiles_chem_mol = Chem.MolFromSmiles(smiles_comp_corr)
         smiles_list.append(smiles_chem_mol)
-    
-    display(Draw.MolsToGridImage((smiles_list[0],smiles_list[1]), subImgSize=(500,500)))
+            
+    if len(smiles_list) > 1:
+        display(Draw.MolsToGridImage((smiles_list[0],smiles_list[1]), subImgSize=(500,500)))
+    else:
+        display(smiles_list[0])
     
     return comp_of_interest, smiles_list
 dataframes,smiles = search_and_analysis_comp(screening_comps)
