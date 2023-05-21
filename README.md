@@ -7,7 +7,7 @@
 
 3. After the environment is created, activate it: 
 
-   **conda activate comp-vis-end**
+   **conda activate comp-vis-env**
 
 4. Locate to the folder where you have .ipynb file and open it with:
 
