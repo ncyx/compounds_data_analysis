@@ -9,7 +9,7 @@
 
    **conda activate comp-vis-env**
 
-4. Locate to the folder where you have .ipynb file and open it with:
+4. Locate to the folder where you have **compounds_depiction_analysis.ipynb** file and open it with:
 
    **jupyter notebook**
 
