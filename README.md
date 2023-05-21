@@ -3,7 +3,7 @@
 1. Install conda on your mac: https://www.anaconda.com/download/
 2. Download environment.yml, locate to the folder where the file was downloaded and type the following into the terminal: 
    
-**conda env create --file environment.yml**
+   **conda env create --file environment.yml**
 
 3. After the environment is created, activate it: 
 
