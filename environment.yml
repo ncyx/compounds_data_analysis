@@ -1,0 +1,11 @@
+name: comp-vis-env
+dependencies:
+  - python>=3.10
+  - pandas  
+  - pip
+  - matplotlib
+  - ipython 
+  - jupyterlab
+  - notebook
+  - pip:
+      - pyarrow
