@@ -1,3 +1,2 @@
-# Some miscellaneous scripts for automated data analysis (lab rotation)
-
+# How to use the script to visualize compounds
 test&test
