@@ -1,4 +1,4 @@
-# How to use the script to visualize compounds
+# How to use the script to visualize&analyze compounds
 
 1. Install conda on your mac: https://www.anaconda.com/download/
 2. Download environment.yml, locate to the folder where the file was downloaded and type the following into the terminal: 
